@@ -8,7 +8,7 @@
 import SwiftUI
 
 
-struct ScrumsView: View {
+struct JobsView: View {
     let jobs: [JobInfo]
     
     var body: some View {
@@ -19,8 +19,8 @@ struct ScrumsView: View {
 }
 
 
-struct ScrumsView_Previews: PreviewProvider {
+struct JobsView_Previews: PreviewProvider {
     static var previews: some View {
-        ScrumsView(jobs: JobInfo.sampleData)
+        JobsView(jobs: JobInfo.sampleData)
     }
 }

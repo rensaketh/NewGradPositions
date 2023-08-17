@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-newgradpositions-dev-135954-authRole",
+      "UnauthRoleArn": "arn:aws:iam::719648084595:role/amplify-newgradpositions-dev-135954-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::719648084595:role/amplify-newgradpositions-dev-135954-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-newgradpositions-dev-135954-deployment",
+      "UnauthRoleName": "amplify-newgradpositions-dev-135954-unauthRole",
+      "StackName": "amplify-newgradpositions-dev-135954",
+      "StackId": "arn:aws:cloudformation:us-east-1:719648084595:stack/amplify-newgradpositions-dev-135954/8a8bfce0-3b95-11ee-a5dd-0ae4fdc0dfe7",
+      "AmplifyAppId": "d8olrs0lwuybk"
+    },
+    "categories": {
+      "auth": {
+        "newgradpositions8fa691d8": {}
+      }
+    }
+  }
+}
