@@ -12,6 +12,7 @@ import SwiftUI
 
 @main
 struct NewGradPositionsApp: App {
+    
     init() {
         do {
             try Amplify.add(plugin: AWSCognitoAuthPlugin())
@@ -24,14 +25,14 @@ struct NewGradPositionsApp: App {
     var body: some Scene {
         WindowGroup {
             Authenticator { state in
-                VStack {
+                /*
                     Text("Hello, \(state.user.username)")
                     Button("Sign out") {
                         Task {
                             await state.signOut()
                         }
-                    }
-                }
+                    }*/
+                JobsView(jobs:JobInfo.sampleData)
             }
         }
     }
